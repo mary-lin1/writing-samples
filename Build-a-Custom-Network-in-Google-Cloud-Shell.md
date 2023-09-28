@@ -49,7 +49,7 @@ Create a firewall rule to allow TCP access on port 22 and ICMP access, so that w
     gcloud compute firewall-rules create ps-allow-ssh --allow tcp:22,icmp --network ps-network
     ```
     
-    It may take a few minutes to create the network.
+    It may take a few minutes to create the new firewall rule.
 
 ### Spin Up VM Instances
  
